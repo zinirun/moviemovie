@@ -2,13 +2,13 @@
 ReactJS를 공부하기 위한 영화 웹서비스 MovieMovie
 ### Deployed by Github-Pages
 <a href='https://zinirun.github.io/moviemovie'>View Page</a>
-#### Movie data from
+### Movie data from
 ```javascript
 await axios.get(
       "https://yts-proxy.now.sh/list_movies.json?sort_by=rating"
     );
 ```
-#### Things I Learned through this project
+### Things I Learned through this project
 - How does React work
 - Component
 - JSX, props (PropType protection)
