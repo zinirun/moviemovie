@@ -28,7 +28,6 @@ class Detail extends React.Component {
             opts={opts}
             onReady={this._onReady}
           />
-          ;
         </div>
       );
     } else {
@@ -37,7 +36,7 @@ class Detail extends React.Component {
   }
   _onReady(event) {
     // access to player in all event handlers via event.target
-    event.target.pauseVideo();
+    //event.target.pauseVideo();
   }
 }
 

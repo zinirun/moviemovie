@@ -53,3 +53,9 @@
   margin-right: 10px;
   font-size: 14px;
 }
+
+.movie .movie__trailer {
+  text-align: center;
+  color: #0077ff;
+  font-style: italic;
+}
