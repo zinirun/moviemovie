@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import "./Movie.css";
 
-function Movie({ id, year, title, summary, poster, genres }) {
+function Movie({ id, year, title, summary, poster, genres, youtube }) {
   return (
     <div className="movie">
       <Link
@@ -15,6 +15,7 @@ function Movie({ id, year, title, summary, poster, genres }) {
             summary,
             poster,
             genres,
+            youtube,
           },
         }}
       >
@@ -43,6 +44,7 @@ Movie.propTypes = {
   summary: PropTypes.string.isRequired,
   poster: PropTypes.string.isRequired,
   genres: PropTypes.arrayOf(PropTypes.string).isRequired,
+  youtube: PropTypes.string.isRequired,
 };
 
 export default Movie;
